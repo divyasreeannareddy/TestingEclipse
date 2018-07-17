@@ -21,5 +21,6 @@ public class NewTest1 {
 	String actual=driver.getTitle();
 	System.out.println(actual);
 	Assert.assertEquals(actual, "GitHub");
+	System.out.println(actual);
 	}
 }
