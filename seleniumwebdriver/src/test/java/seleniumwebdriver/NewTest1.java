@@ -37,7 +37,7 @@ public class NewTest1 {
 	driver.findElement(By.name("commit")).click();
 	String actual=driver.getTitle();
 	System.out.println(actual);
-	Assert.assertEquals(actual, "Sign in to GitHub.Git");
+	Assert.assertEquals(actual, "Sign in to GitHub · GitHub");
 	System.out.println("Pull");	
 	}
 }
