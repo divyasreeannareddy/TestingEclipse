@@ -33,11 +33,11 @@ public class NewTest1 {
 	}
 	driver.get("https://github.com/login");
 	driver.findElement(By.id("login_field")).sendKeys("divyasreeannareddy");
-	driver.findElement(By.id("password")).sendKeys("Bvbr3knj3");
+	driver.findElement(By.id("password")).sendKeys("Bvbrj3");
 	driver.findElement(By.name("commit")).click();
 	String actual=driver.getTitle();
 	System.out.println(actual);
-	Assert.assertEquals(actual, "GitHub");
+	Assert.assertEquals(actual, "Sign in to GitHub");
 	System.out.println("Pull");	
 	}
 }
